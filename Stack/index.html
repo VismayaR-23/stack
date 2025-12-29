@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stack Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Stack Data Structure</h1>
+    <p class="subtitle">LIFO – Last In, First Out</p>
+
+    <!-- Controls -->
+    <div class="controls">
+      <input type="text" id="valueInput" placeholder="Enter value">
+      <button onclick="push()">Push</button>
+      <button onclick="pop()">Pop</button>
+      <button onclick="peek()">Peek</button>
+      <button onclick="clearStack()">Clear</button>
+    </div>
+
+    <!-- Message -->
+    <div id="message"></div>
+
+    <!-- Stack Info -->
+    <div class="info">
+      <div>Size: <span id="size">0</span></div>
+      <div>Capacity: <span>8</span></div>
+    </div>
+
+    <!-- Stack Visualization -->
+    <div class="stack-container">
+      <div id="stack"></div>
+      <div class="base">BASE</div>
+    </div>
+  </div>
+
+  <script src="first.js"></script>
+</body>
+</html>
